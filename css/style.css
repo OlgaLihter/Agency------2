@@ -196,3 +196,117 @@
 .intro__info{
     max-width: 595px;
 }
+
+/*services*/
+.services{
+    display: flex;
+    justify-content: space-between;
+    width: 1249px;
+    margin: 0 auto;
+    padding: 107px 0 100px;
+    border-bottom: 2px solid #ECECEC;
+}
+
+.services__info{
+    width: 539px;
+}
+
+.services__heading{
+    font-family: 'Open Sans';
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 0;
+    margin-bottom: 50px;
+        
+}
+
+.services__about{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 64px;
+
+}
+
+.action__link_red-border{
+    color: #FF2D2D;
+    background-color: rgb(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+}
+
+.services__items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 610px;
+    justify-content: end;
+    
+                
+}
+
+.services__item{
+    width: 50%;
+    margin-bottom: 53px;
+   
+}
+
+.services__item-manag::before{
+    content: '';
+    display: block;
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/combined_gear.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item-des::before{
+    content: '';
+    display: block;
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/combined_pen.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item-logo::before{
+    content: '';
+    display: block;
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/combined_diamond.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item-anim::before{
+    content: '';
+    display: block;
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/combined_car.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__title{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 1.2px;
+    font-weight: 600;
+    letter-spacing: 0.27px;
+}
+
+.services__text{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    width: 286px;
+}
+
