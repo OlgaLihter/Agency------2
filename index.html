@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="JS/popup-menu.js"></script>   
 </head>
 <body class="page">
     <div class="page__inner  page__inner_intro page__inner_grey">
@@ -22,24 +23,33 @@
                 <li class="site-menu__item"><a class="site-menu__link" href="#contacts__heading">contact</a></li>
             </ul>
         </nav>
+        <nav class="popup-menu">
+            <button class="popup-menu__button"></button>
+            <ul class="popup-menu__list hide">
+                <li class="popup-menu__item"><a class="popup-menu__link popup-menu__link_active" href="#">Home</a></li>
+                <li class="popup-menu__item"><a class="popup-menu__link" href="#feature__heading">PORTFOLIO</a></li>
+                <li class="popup-menu__item"><a class="popup-menu__link" href="#team__heading">ABOUT US</a></li>
+                <li class="popup-menu__item"><a class="popup-menu__link" href="#contacts__heading">contact</a></li>
+            </ul>
+        </nav>
     </header>
     </div>
     <main>
     <div class="page__inner page__inner_section page__inner_grey">
-    <section class="intro">
+    <section class="intro section">
         <div class="intro__info">
             <h2 class="intro__heading">our strong<br> <span class="intro__span intro__span_special"> organization</span></h2>
             <p class="intro__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illo nisi esse, deleniti illum eligendi est ad dicta odit id, unde similique officia consequatur sit non eius eum reprehenderit maxime!</p>
             <a class="action__link action__link_red-full" href="">Contact Us</a>
         </div>
-        <video class="intro__video" muted autoplay loop poster="img/Скрин.jpg">
+        <video class="intro__video" muted controls loop poster="img/Скрин.jpg">
             <source src="video/Untitled00119561.mp4" type="video/mp4">
             Обновите браузер!
             <a href="video/Untitled00119561.mp4">Видео по ссылке</a>
         </video>
     </section>
     </div>
-    <section class="services">
+    <section class="services section">
         <div class="services__info">
             <h2 class="services__heading" >do you know we can provide for you ?</h2>
             <p class="services__about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis quisquam sapiente rerum itaque. Recusandae autem doloremque commodi, quasi quidem nulla excepturi eum dicta dolores impedit sed cupiditate, quia beatae. Accusantium?</p>
@@ -64,7 +74,7 @@
         </div>
         </div>
     </section>
-    <section class="feature">
+    <section class="feature section">
         <div class="feature__header">
             <h2 class="feature__heading" id="feature__heading">Feature products</h2>
             <p class="feature__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
@@ -90,7 +100,7 @@
                 <img width="297" height="290" class="feature__product" src="img/business.jpg" alt="Бизнес продукт">
             </div>
     </section>
-    <section class="team">
+    <section class="team section">
             <div class="team__header">
                 <h2 class="team__heading" id="team__heading">Meet our team</h2>
                 <p class="team__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
@@ -130,17 +140,19 @@
             </div>
     </section>
         <div class="page__inner page__inner_dark page__inner_subscribe">
-        <section class="subscribe">
-        <h2 class="subscribe__heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
-        <p class="subscribe__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
-        <form  class="suscribe__form" method="get">
-            <input  class="subscribe__input" type="email" name="email" id="subscribe__email" placeholder="Email Address...">
-            <button  class="subscribe__button"  type="submit">Subscribe</button>
+        <section class="subscribe section">
+            <div class="suscribe__header">
+            <h2 class="subscribe__heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
+            <p class="subscribe__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+            </div>
+            <form  class="suscribe__form" method="get">
+                <input  class="subscribe__input" type="email" name="email" id="subscribe__email" placeholder="Email Address...">
+                <button  class="subscribe__button"  type="submit">Subscribe</button>
             </form> 
         </section>
         </div>
    
-    <section class="touch">
+    <section class="touch section">
         <div class="touch__header">
             <div class="touch__inner">
             <h2 class="touch__heading" id="touch__heading">Get in touch</h2>
@@ -149,7 +161,7 @@
             </div>
         </div>
         <div class="touch__body">
-            <!--<div class="touch__box touch__box_left"></div>-->
+            <div class="touch__box touch__box_left"></div>
             <form class="touch__form" method="get">
                 <input class="touch__name" type="text" placeholder="Name" name="Name">
                 <input class="touch__email" type="email" name="email" placeholder="Your Mail" id="email">
@@ -162,12 +174,12 @@
             <a class="contacts__email" href="mailto">redwan@deviserweb.com</a>
             <a class="contacts__tel" href="tel:(+88)016146373">(+88) 016 174 6373</a>
             </section>
-            <!--<div class="touch__box touch__box_right"></div>-->
+            <div class="touch__box touch__box_right"></div>
         </div>
     </section>
     </main>
     <div class="page__inner page__inner_dark-2">
-    <footer class="footer">
+    <footer class="footer section">
         <p class="footer__text">&#169; Copyright @Junaed 2016, All rights reserved.</p>
         <section class="footer__icons social">
             <a class="social__link" href="">
@@ -185,6 +197,6 @@
         </section>
     </footer>
     </div>
-
+    
 </body>
 </html>
