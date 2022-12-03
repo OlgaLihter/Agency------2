@@ -11,6 +11,6 @@ function showMenu()
 //document.addEventListener('click', closeMenu);
 //function closeMenu(evt){
     //let outSide = menuWrapper.contains(evt.target)};
-    //if (!outSide) {menuList.classList.add('hide')};
+   // if (!outSide) {menuList.classList.add('hide')};
 
 
