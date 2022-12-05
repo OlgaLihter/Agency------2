@@ -530,12 +530,10 @@ button {cursor: pointer;}
 
 /*features*/
 .feature{
-    max-width: 1249px;
+    width: 1249px;
     margin: 0 auto;
-    padding: 0 1vw;
-    padding-top: 107px;
-    padding-bottom: 70px;
-    margin-left: 15px;
+    padding: 107px 0 70px;
+
 }
 
 .feature__header{
@@ -600,7 +598,6 @@ button {cursor: pointer;}
 
 }
 
-
 .filter__link{
     font-family: 'Open Sans' sans-serif;
     font-size: 22px;
@@ -629,8 +626,7 @@ button {cursor: pointer;}
 }
 
 .feature__product{
-    min-width: 250px;
-    height: 290px;
+    width: 297px;
     object-fit: cover;
     object-position: 0 50%;
     flex: 1 1 24%;
